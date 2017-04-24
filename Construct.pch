@@ -1,0 +1,19 @@
+//
+//  Construct.pch
+//  Construct
+//
+//  Created by lisa on 2017/4/3.
+//  Copyright © 2017年 lisa. All rights reserved.
+//
+
+#ifndef Construct_pch
+#define Construct_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Config.h"
+#import "Utils.h"
+#import "Network.h"
+#import "HttpRequest.h"
+#endif /* Construct_pch */
