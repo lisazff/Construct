@@ -14,13 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - MJExtension (3.0.13)
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.9.5.3):
+    - SocketRocket
 
 DEPENDENCIES:
   - AFNetworking
+  - MJExtension
+  - WeexSDK
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: fd9686048346bd73bfa762c3898ddb1a8eeafc99
 
-PODFILE CHECKSUM: ea6a9c10c9964ac17d4bf6f2ed04d2a125c5c3b4
+PODFILE CHECKSUM: 0cc9d58d02d3667dc6a649071c51d2279d49909c
 
 COCOAPODS: 1.2.0.beta.1

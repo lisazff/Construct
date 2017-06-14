@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <WeexSDK/WeexSDK.h>
+
 @interface AppDelegate ()
 
 @end
@@ -29,6 +31,25 @@
     return YES;
 }
 
+//初始化sdk
+- (void)initWeexSDK
+{
+    //business configuration
+    [WXAppConfiguration setAppGroup:@"AliApp"];
+    [WXAppConfiguration setAppName:@"WeexDemo"];
+    [WXAppConfiguration setAppVersion:@"1.0.0"];
+    
+    //init sdk enviroment
+    [WXSDKEngine initSDKEnviroment];
+    //register custom module and component，optional
+    
+   // [WXSDKEngine registerComponent:@"MyView" withClass:[MyViewComponent class]];
+   // [WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
+    //register the implementation of protocol, optional
+   // [WXSDKEngine registerHandler:[WXNavigationDefaultImpl new] withProtocol:@protocol(WXNavigationProtocol)];
+    //set the log level
+    [WXLog setLogLevel: WXLogLevelAll];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

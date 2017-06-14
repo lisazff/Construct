@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		2C5B18662E485BC228FBC9D4 /* Pods_Construct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44D34BAFAD24609CCF0146A /* Pods_Construct.framework */; };
 		6A04346B1EA8B31200F7D1A6 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A04346A1EA8B31200F7D1A6 /* HttpRequest.m */; };
+		6A3BC3691EB8778E00A02CA6 /* TaskListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BC3681EB8778E00A02CA6 /* TaskListModel.m */; };
+		6A3BC36C1EB889BD00A02CA6 /* TaskDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BC36B1EB889BD00A02CA6 /* TaskDetailCell.m */; };
+		6A3BC36F1EB88E4700A02CA6 /* TaskViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BC36E1EB88E4700A02CA6 /* TaskViewModel.m */; };
+		6AAE93651EE942170082136D /* StockData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE93641EE942170082136D /* StockData.m */; };
+		6AAE93681EE9474F0082136D /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE93671EE9474F0082136D /* HomeListViewController.m */; };
+		6AAE93761EEBEDB60082136D /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE93751EEBEDB60082136D /* CustomOperation.m */; };
+		6AAE93791EEC5CD70082136D /* 概念介绍 in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE93781EEC5CD70082136D /* 概念介绍 */; };
+		6AAE937F1EECC8420082136D /* TicketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE937E1EECC8420082136D /* TicketManager.m */; };
+		6AAE93831EED0A710082136D /* TestSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE93821EED0A710082136D /* TestSingle.m */; };
 		6AB328621E91EA11000FCC27 /* ZFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB328611E91EA11000FCC27 /* ZFAlertViewController.m */; };
 		6AB328661E920516000FCC27 /* ZFTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB328651E920516000FCC27 /* ZFTabbar.m */; };
 		6AB3286E1E92367A000FCC27 /* ZFBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3286D1E92367A000FCC27 /* ZFBarButton.m */; };
@@ -30,6 +39,8 @@
 		6AE9883A1E9DBE1100F5DA24 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE988391E9DBE1100F5DA24 /* ChatViewController.m */; };
 		6AE9883D1E9DBE2900F5DA24 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9883C1E9DBE2900F5DA24 /* FindViewController.m */; };
 		6AE988401E9DBE3F00F5DA24 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9883F1E9DBE3F00F5DA24 /* MeViewController.m */; };
+		6AFEB60F1EC2C5BE001479B5 /* HWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB60E1EC2C5BE001479B5 /* HWAlertView.m */; };
+		6AFEB6131EC2F941001479B5 /* ShowAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEB6121EC2F941001479B5 /* ShowAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,23 @@
 		6A0434691EA8B31200F7D1A6 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
 		6A04346A1EA8B31200F7D1A6 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 		6A04346C1EA9B75300F7D1A6 /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		6A3BC3671EB8778E00A02CA6 /* TaskListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListModel.h; sourceTree = "<group>"; };
+		6A3BC3681EB8778E00A02CA6 /* TaskListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListModel.m; sourceTree = "<group>"; };
+		6A3BC36A1EB889BD00A02CA6 /* TaskDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailCell.h; sourceTree = "<group>"; };
+		6A3BC36B1EB889BD00A02CA6 /* TaskDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailCell.m; sourceTree = "<group>"; };
+		6A3BC36D1EB88E4700A02CA6 /* TaskViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewModel.h; sourceTree = "<group>"; };
+		6A3BC36E1EB88E4700A02CA6 /* TaskViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewModel.m; sourceTree = "<group>"; };
+		6AAE93631EE942170082136D /* StockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockData.h; sourceTree = "<group>"; };
+		6AAE93641EE942170082136D /* StockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockData.m; sourceTree = "<group>"; };
+		6AAE93661EE9474F0082136D /* HomeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListViewController.h; sourceTree = "<group>"; };
+		6AAE93671EE9474F0082136D /* HomeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListViewController.m; sourceTree = "<group>"; };
+		6AAE93741EEBEDB60082136D /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		6AAE93751EEBEDB60082136D /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
+		6AAE93781EEC5CD70082136D /* 概念介绍 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "概念介绍"; sourceTree = "<group>"; };
+		6AAE937D1EECC8420082136D /* TicketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketManager.h; sourceTree = "<group>"; };
+		6AAE937E1EECC8420082136D /* TicketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketManager.m; sourceTree = "<group>"; };
+		6AAE93811EED0A710082136D /* TestSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSingle.h; sourceTree = "<group>"; };
+		6AAE93821EED0A710082136D /* TestSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSingle.m; sourceTree = "<group>"; };
 		6AB328601E91EA11000FCC27 /* ZFAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlertViewController.h; sourceTree = "<group>"; };
 		6AB328611E91EA11000FCC27 /* ZFAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlertViewController.m; sourceTree = "<group>"; };
 		6AB328641E920516000FCC27 /* ZFTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabbar.h; sourceTree = "<group>"; };
@@ -98,6 +126,10 @@
 		6AE9883C1E9DBE2900F5DA24 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		6AE9883E1E9DBE3F00F5DA24 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		6AE9883F1E9DBE3F00F5DA24 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		6AFEB60D1EC2C5BE001479B5 /* HWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAlertView.h; sourceTree = "<group>"; };
+		6AFEB60E1EC2C5BE001479B5 /* HWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAlertView.m; sourceTree = "<group>"; };
+		6AFEB6111EC2F941001479B5 /* ShowAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAnimationView.h; sourceTree = "<group>"; };
+		6AFEB6121EC2F941001479B5 /* ShowAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAnimationView.m; sourceTree = "<group>"; };
 		AF1EB6127E3D795382D97E1C /* Pods-Construct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Construct.release.xcconfig"; path = "Pods/Target Support Files/Pods-Construct/Pods-Construct.release.xcconfig"; sourceTree = "<group>"; };
 		BCEFA3DB27FFED1AA79D9ECE /* Pods-Construct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Construct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Construct/Pods-Construct.debug.xcconfig"; sourceTree = "<group>"; };
 		C44D34BAFAD24609CCF0146A /* Pods_Construct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Construct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +183,68 @@
 			children = (
 			);
 			name = "TextView根据内容动态调整高度";
+			sourceTree = "<group>";
+		};
+		6AAE93611EE941B90082136D /* 各基本测试项目 */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE93621EE941D40082136D /* KVO */,
+			);
+			name = "各基本测试项目";
+			sourceTree = "<group>";
+		};
+		6AAE93621EE941D40082136D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE93631EE942170082136D /* StockData.h */,
+				6AAE93641EE942170082136D /* StockData.m */,
+			);
+			name = KVO;
+			sourceTree = "<group>";
+		};
+		6AAE93731EEBED610082136D /* NSOperation操作 */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE93741EEBEDB60082136D /* CustomOperation.h */,
+				6AAE93751EEBEDB60082136D /* CustomOperation.m */,
+			);
+			name = "NSOperation操作";
+			sourceTree = "<group>";
+		};
+		6AAE93771EEC5C710082136D /* iOS基础之搞定多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE93801EED0A490082136D /* gcd单例 */,
+				6AAE937C1EECC7F50082136D /* 多线程模拟售票例子 */,
+				6AAE937A1EEC85F30082136D /* pThread */,
+				6AAE93781EEC5CD70082136D /* 概念介绍 */,
+			);
+			name = "iOS基础之搞定多线程";
+			sourceTree = "<group>";
+		};
+		6AAE937A1EEC85F30082136D /* pThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pThread;
+			sourceTree = "<group>";
+		};
+		6AAE937C1EECC7F50082136D /* 多线程模拟售票例子 */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE937D1EECC8420082136D /* TicketManager.h */,
+				6AAE937E1EECC8420082136D /* TicketManager.m */,
+			);
+			name = "多线程模拟售票例子";
+			sourceTree = "<group>";
+		};
+		6AAE93801EED0A490082136D /* gcd单例 */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE93811EED0A710082136D /* TestSingle.h */,
+				6AAE93821EED0A710082136D /* TestSingle.m */,
+			);
+			name = "gcd单例";
 			sourceTree = "<group>";
 		};
 		6AB3285E1E91E7D9000FCC27 /* 自定义封装_常用控件 */ = {
@@ -287,6 +381,11 @@
 		6AC9F0AD1DF817240011A931 /* Construct */ = {
 			isa = PBXGroup;
 			children = (
+				6AAE93771EEC5C710082136D /* iOS基础之搞定多线程 */,
+				6AAE93731EEBED610082136D /* NSOperation操作 */,
+				6AAE93611EE941B90082136D /* 各基本测试项目 */,
+				6AFEB6101EC2F8CA001479B5 /* 自定义蒙版实质是把view加在window上 */,
+				6AFEB60C1EC2C52E001479B5 /* 自定义view加透明背景 */,
 				6AF549EE1EA84DB400395250 /* NetworkManager */,
 				6AE988251E9DBCAA00F5DA24 /* Home(主页) */,
 				6AE988261E9DBCCC00F5DA24 /* Chat(聊天) */,
@@ -377,6 +476,8 @@
 			children = (
 				6AE988351E9DBE0000F5DA24 /* HomeViewController.h */,
 				6AE988361E9DBE0000F5DA24 /* HomeViewController.m */,
+				6AAE93661EE9474F0082136D /* HomeListViewController.h */,
+				6AAE93671EE9474F0082136D /* HomeListViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -384,6 +485,10 @@
 		6AE9882A1E9DBD4800F5DA24 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6A3BC3671EB8778E00A02CA6 /* TaskListModel.h */,
+				6A3BC3681EB8778E00A02CA6 /* TaskListModel.m */,
+				6A3BC36D1EB88E4700A02CA6 /* TaskViewModel.h */,
+				6A3BC36E1EB88E4700A02CA6 /* TaskViewModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -391,6 +496,8 @@
 		6AE9882B1E9DBD5100F5DA24 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6A3BC36A1EB889BD00A02CA6 /* TaskDetailCell.h */,
+				6A3BC36B1EB889BD00A02CA6 /* TaskDetailCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -474,6 +581,24 @@
 			name = NetworkManager;
 			sourceTree = "<group>";
 		};
+		6AFEB60C1EC2C52E001479B5 /* 自定义view加透明背景 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFEB60D1EC2C5BE001479B5 /* HWAlertView.h */,
+				6AFEB60E1EC2C5BE001479B5 /* HWAlertView.m */,
+			);
+			name = "自定义view加透明背景";
+			sourceTree = "<group>";
+		};
+		6AFEB6101EC2F8CA001479B5 /* 自定义蒙版实质是把view加在window上 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFEB6111EC2F941001479B5 /* ShowAnimationView.h */,
+				6AFEB6121EC2F941001479B5 /* ShowAnimationView.m */,
+			);
+			name = "自定义蒙版实质是把view加在window上";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -544,6 +669,7 @@
 				TargetAttributes = {
 					6AC9F0AA1DF817240011A931 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AWA9R9FXT6;
 						ProvisioningStyle = Manual;
 					};
 					6AC9F0C31DF817240011A931 = {
@@ -586,6 +712,7 @@
 				6AC9F0BE1DF817240011A931 /* LaunchScreen.storyboard in Resources */,
 				6AC9F0BB1DF817240011A931 /* Assets.xcassets in Resources */,
 				6AC9F0B91DF817240011A931 /* Main.storyboard in Resources */,
+				6AAE93791EEC5CD70082136D /* 概念介绍 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,20 +788,30 @@
 				6AC9F0B61DF817240011A931 /* ViewController.m in Sources */,
 				6AB328821E927D04000FCC27 /* BaseNavigationViewController.m in Sources */,
 				6AB328861E927DA0000FCC27 /* BaseViewController.m in Sources */,
+				6AAE937F1EECC8420082136D /* TicketManager.m in Sources */,
 				6AB328721E9239A6000FCC27 /* NSObject+iOS_Layout______layoutSubviews.m in Sources */,
+				6AFEB60F1EC2C5BE001479B5 /* HWAlertView.m in Sources */,
 				6AE988241E9DB96B00F5DA24 /* TabBarViewController.m in Sources */,
 				6AB328621E91EA11000FCC27 /* ZFAlertViewController.m in Sources */,
+				6AAE93681EE9474F0082136D /* HomeListViewController.m in Sources */,
+				6AAE93831EED0A710082136D /* TestSingle.m in Sources */,
 				6AB328771E923DAB000FCC27 /* Utils.m in Sources */,
 				6AC9F0B31DF817240011A931 /* AppDelegate.m in Sources */,
+				6A3BC3691EB8778E00A02CA6 /* TaskListModel.m in Sources */,
+				6AAE93651EE942170082136D /* StockData.m in Sources */,
 				6AC9F0B01DF817240011A931 /* main.m in Sources */,
 				6AB328661E920516000FCC27 /* ZFTabbar.m in Sources */,
 				6AB3287D1E92404B000FCC27 /* GTMBase64.m in Sources */,
 				6AB3286E1E92367A000FCC27 /* ZFBarButton.m in Sources */,
 				6AE9883D1E9DBE2900F5DA24 /* FindViewController.m in Sources */,
+				6A3BC36C1EB889BD00A02CA6 /* TaskDetailCell.m in Sources */,
 				6AE9883A1E9DBE1100F5DA24 /* ChatViewController.m in Sources */,
 				6AE988401E9DBE3F00F5DA24 /* MeViewController.m in Sources */,
+				6AFEB6131EC2F941001479B5 /* ShowAnimationView.m in Sources */,
+				6A3BC36F1EB88E4700A02CA6 /* TaskViewModel.m in Sources */,
 				6A04346B1EA8B31200F7D1A6 /* HttpRequest.m in Sources */,
 				6AE988371E9DBE0000F5DA24 /* HomeViewController.m in Sources */,
+				6AAE93761EEBEDB60082136D /* CustomOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,14 +961,16 @@
 			baseConfigurationReference = BCEFA3DB27FFED1AA79D9ECE /* Pods-Construct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				GCC_C_LANGUAGE_STANDARD = gnu89;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Construct.pch";
 				INFOPLIST_FILE = Construct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = favalue.com.Construct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.favalue.stucy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66a1a083-7a6b-4744-9b17-e03809cc0642";
+				PROVISIONING_PROFILE_SPECIFIER = favalue_dev;
 			};
 			name = Debug;
 		};
@@ -840,14 +979,17 @@
 			baseConfigurationReference = AF1EB6127E3D795382D97E1C /* Pods-Construct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				GCC_C_LANGUAGE_STANDARD = gnu89;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Construct.pch";
 				INFOPLIST_FILE = Construct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = favalue.com.Construct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.favalue.stucy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66a1a083-7a6b-4744-9b17-e03809cc0642";
+				PROVISIONING_PROFILE_SPECIFIER = favalue_dev;
 			};
 			name = Release;
 		};

@@ -27,13 +27,15 @@
         AFHTTPSessionManager *manage = [AFHTTPSessionManager manager];
     
         manage.requestSerializer = [AFJSONRequestSerializer serializer]; //请求设置成json格式
-        manage.responseSerializer = [AFHTTPResponseSerializer serializer]; //响应数据  是 二进制 格式
+//        manage.responseSerializer = [AFHTTPResponseSerializer serializer]; //响应数据  是 二进制 格式
+      manage.responseSerializer = [AFJSONResponseSerializer serializer]; //响应数据  是 json 格式   这样接收的response数据 就是json字典数据
         manage.requestSerializer.timeoutInterval = 10.0f;  //请求 时间超时间隔 10秒
         
         // 下面 get 方法是 AFHTTPSessionManager  框架里面  封装好的
         [manage GET:HttpServerNormalUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             
             NSLog(@"网络请求的URL为:  %@",task.currentRequest.URL);
+            success(responseObject);
             
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             
